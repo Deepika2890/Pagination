@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# React Pagination App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple React application that fetches a list of persons from an API and displays them with pagination. It shows 10 persons per page, and you can navigate through the list by clicking the "Next" button to view the next set of persons.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## **Features**
 
-### `npm start`
+- Fetches data from a mock API.
+- Displays 10 persons per page.
+- Provides a "Next" button to load more persons.
+- Handles loading state during the data fetch.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## **Technologies Used**
 
-### `npm test`
+- React (using React Hooks - `useState`, `useEffect`)
+- CSS for styling
+- Fetch API to get data from the mock API
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## **How to Run the Application**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the repository** or create a new React app: 
+   -I'm giving repository URL `https://github.com/Deepika2890/Pagination.git`
+   -npx create-react-app Showcase-Application
+   -cd showcase
+   -npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## **Can Be Do Better**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    -I have done this sample application based on the inputs from interviewer.
+    -It will be more helpful for me if you may provide proper description, what I have to display and what features I have to  add to it. 
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## CONCLUSION*** 
+-This project demonstrates how to create a paginated list in React using Hooks and how to fetch data from an API to display it in chunks. The application fetches a list of persons from an API and displays them 10 at a time, with a "Next" button to navigate through the pages. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+-This project serves as a good starting point for learning how to fetch data and implement pagination in React.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
