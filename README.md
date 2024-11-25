@@ -25,6 +25,7 @@ This is a simple React application that fetches a list of persons from an API an
 
 1. **Clone the repository** or create a new React app: 
    -I'm giving repository URL `https://github.com/Deepika2890/Pagination.git`
+   -Also I'm giving published URL so that you can go through a live view https://pagination-plum.vercel.app/
    -npx create-react-app Showcase-Application
    -cd showcase
    -npm start
